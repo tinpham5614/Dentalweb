@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'architects_daughterregular';
+    src: url('../fonts/architectsdaughter-webfont.woff2') format('woff2'),
+         url('../fonts/architectsdaughter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#logo {
+    margin: 20px;
+}
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+header{
+
+}
+
+main {
+    float: left;
+    padding: 10px;
+    width: 600px;
+}
+main li{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.left{
+    float: left;
+    margin-right:10px;
+}
+.text{
+    width:auto;
+}
+.text-2{
+    width: 600px;
+}
+
+.row{
+    clear: both;
+    margin-bottom:20px;
+    overflow: hidden;
+}
+
+#primary{
+    background: dodgerblue;
+    height: 50px;
+    line-height: 50px;
+    
+}
+#primary li{
+    float: left;
+    list-style-type: none;
+    width: 20%;
+    text-align:center;
+}
+#primary a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+#primary a:hover{
+    background: white;
+    color: dodgerblue;
+}
+h1 {
+    font-family: 'architects_daughterregular';
+    color: dodgerblue;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    font-family: 'architects_daughterregular';
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: dodgerblue;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+}
+
+p{
+    line-height: 1.5;
+    margin-bottom: 13px;
+}
+
+input[type=text], input[type=submit]{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+aside{
+    width: 340px;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+aside img{
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+.signup{
+    background-color: #f1f1f1;
+    border: 4px solid #f1f1f1;
+    padding: 10px;
+}
+
+
+footer{
+    border-top: 1px dotted #666;
+    height: 30px;
+    clear: both; /* keep the 3rd sub same position*/
+    font-size: .9em;
+
+}
+footer ul{
+    float: right;
+}
+footer li{ 
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+}
+footer a{
+    color:#666;
+}
+.third{
+    float: left;
+    width: 326px;
+    height: auto;
+/*    margin-right:20px;*/
+/*    margin-bottom:10px;*/
+}
+.third:last-of-type{
+    margin-right:0;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+/*this is contact css*/
+legend{
+    font-size: 20px;
+    padding: 5px;
+    
+}
+fieldset{
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+input[type=radio],input[type=checkbox]
+{
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size:17px;
+}
+form{
+    width: auto; 
+}
+form ul{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+form li{
+    list-style-type:none;
+}
+input{
+    width: 100%;
+/*    height: 30px;*/
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+/*this is about css*/
+figcaption {
+    background: black;
+    color: #fff;
+    padding: 8px;
+    font-style: italic;
+    font-size: .9em;
+    margin-bottom: 10px;
+}
+
+/* this is my service css*/
+#secondary {
+    margin-bottom: 15px;    
+}
+#secondary li{
+    list-style-type: none;
+    background: lightblue;
+    height: 35px;
+    line-height: 35px;
+    
+}
+#secondary a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+#secondary a:hover {
+    background: #3E688C;
+    color: #fff;
+}
+
